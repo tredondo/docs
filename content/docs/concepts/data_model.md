@@ -48,8 +48,9 @@ Samples form the actual time series data. Each sample consists of:
    * a millisecond-precision timestamp
 
 ## Notation
-Given a metric name and a set of labels, time series are frequently identified
-using this notation:
+Remember that every unique combination of key-value label pairs represents a
+new time series.  Given a metric name and a set of labels, time series are
+frequently identified using this notation:
 
     <metric name>{<label name>=<label value>, ...}
 
